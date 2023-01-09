@@ -1,0 +1,37 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: Avenir, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.baseInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    background-color: rgba(93, 97, 90, 0.06);
+}
+.basicPhoto{
+    width: 154px;
+    height: 116px;
+    border: 3px solid black;
+    box-shadow: 12px 12px #0b234931 ;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    line-height: 40px;
+}
+.gitlink{
+    text-decoration: none;
+    color:blue;
+}
+.secondaryInfo{
+    margin: 12px;
+}
+.otherInfo{
+    display: flex;
+    flex-direction: column;
+}
